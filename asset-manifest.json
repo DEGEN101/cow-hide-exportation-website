@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/cow-hide-exportation-website/static/css/main.5ee45b75.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.b13c82ba.js",
-    "static/media/logo.png": "/cow-hide-exportation-website/static/media/logo.8edc36338f7a415b5767.png",
-    "static/media/title-card-image.jpg": "/cow-hide-exportation-website/static/media/title-card-image.1282e744a2ca3ecc8faf.jpg",
+    "main.css": "/cow-hide-exportation-website/static/css/main.847bb894.css",
+    "main.js": "/cow-hide-exportation-website/static/js/main.5a627b17.js",
+    "static/media/sample-cowhide-image.jpg": "/cow-hide-exportation-website/static/media/sample-cowhide-image.c0ece17f75036c37aa72.jpg",
     "static/media/Poppins-Italic.ttf": "/cow-hide-exportation-website/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
     "static/media/Poppins-Light.ttf": "/cow-hide-exportation-website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/cow-hide-exportation-website/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Medium.ttf": "/cow-hide-exportation-website/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-Bold.ttf": "/cow-hide-exportation-website/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/cow-hide-exportation-website/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
-    "static/media/trophy-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/trophy-svgrepo-com.d824b8d5b444384e69858eb8bd367bf7.svg",
-    "static/media/warranty-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/warranty-svgrepo-com.ff466038690c77ff77edecb9f19abc49.svg",
-    "static/media/support-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/support-svgrepo-com.afdd7915e17a844a4f9a106c3d0afd26.svg",
+    "static/media/handprint-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/handprint-svgrepo-com.22b9769716f9d67f7baebe0b2261d4d4.svg",
+    "static/media/leather-fashion-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/leather-fashion-svgrepo-com.393abdba3228f831da924b459c426b50.svg",
+    "static/media/africa-continent-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/africa-continent-svgrepo-com.a611d74871e55e20a447f34b2f17d3f0.svg",
     "index.html": "/cow-hide-exportation-website/index.html",
-    "main.5ee45b75.css.map": "/cow-hide-exportation-website/static/css/main.5ee45b75.css.map",
-    "main.b13c82ba.js.map": "/cow-hide-exportation-website/static/js/main.b13c82ba.js.map"
+    "static/media/check-circle-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/check-circle-svgrepo-com.3de319c41b92a4c0dd92b54e47c09349.svg",
+    "main.847bb894.css.map": "/cow-hide-exportation-website/static/css/main.847bb894.css.map",
+    "main.5a627b17.js.map": "/cow-hide-exportation-website/static/js/main.5a627b17.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ee45b75.css",
-    "static/js/main.b13c82ba.js"
+    "static/css/main.847bb894.css",
+    "static/js/main.5a627b17.js"
   ]
 }
