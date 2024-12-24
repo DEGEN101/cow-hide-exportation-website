@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cow-hide-exportation-website/static/css/main.6f18fa4c.css",
+    "main.css": "/cow-hide-exportation-website/static/css/main.5ee45b75.css",
     "main.js": "/cow-hide-exportation-website/static/js/main.b13c82ba.js",
     "static/media/logo.png": "/cow-hide-exportation-website/static/media/logo.8edc36338f7a415b5767.png",
     "static/media/title-card-image.jpg": "/cow-hide-exportation-website/static/media/title-card-image.1282e744a2ca3ecc8faf.jpg",
@@ -14,11 +14,11 @@
     "static/media/warranty-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/warranty-svgrepo-com.ff466038690c77ff77edecb9f19abc49.svg",
     "static/media/support-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/support-svgrepo-com.afdd7915e17a844a4f9a106c3d0afd26.svg",
     "index.html": "/cow-hide-exportation-website/index.html",
-    "main.6f18fa4c.css.map": "/cow-hide-exportation-website/static/css/main.6f18fa4c.css.map",
+    "main.5ee45b75.css.map": "/cow-hide-exportation-website/static/css/main.5ee45b75.css.map",
     "main.b13c82ba.js.map": "/cow-hide-exportation-website/static/js/main.b13c82ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f18fa4c.css",
+    "static/css/main.5ee45b75.css",
     "static/js/main.b13c82ba.js"
   ]
 }
