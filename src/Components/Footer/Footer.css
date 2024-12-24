@@ -1,0 +1,101 @@
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #9F9F9F;
+}
+
+.footer-container .footer-heading {
+    margin-bottom: 5%;
+
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.footer-container .sub-heading {
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #9F9F9F;
+    font-weight: 800;
+}
+
+
+/* Information Section */
+.footer-container .information-section {
+    margin: 2% 0 2% 0;
+    display: flex;
+    flex-direction: row;
+
+    width: 85vw;
+    height: 90%;
+    gap: 8%;
+}
+
+.footer-container .address-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-container .links-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links-section .footer-link {
+    margin: 14% 0 0 0;
+    text-decoration: none;
+}
+
+.footer-container .newsletter-section {
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter-section .email-section {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-section .email-section p {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: black;
+
+    padding-bottom: 0;
+}
+
+.email-section button {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: black;
+}
+
+
+/* Copyright Section */
+.footer-container .copyright-section {
+    display: flex;
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #9F9F9F;
+
+    width: 85vw;
+}
