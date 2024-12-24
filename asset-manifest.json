@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/cow-hide-exportation-website/static/css/main.847bb894.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.5a627b17.js",
+    "main.css": "/cow-hide-exportation-website/static/css/main.58171b26.css",
+    "main.js": "/cow-hide-exportation-website/static/js/main.ef4b39b0.js",
     "static/media/sample-cowhide-image.jpg": "/cow-hide-exportation-website/static/media/sample-cowhide-image.c0ece17f75036c37aa72.jpg",
-    "static/media/Poppins-Italic.ttf": "/cow-hide-exportation-website/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
-    "static/media/Poppins-Light.ttf": "/cow-hide-exportation-website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
-    "static/media/Poppins-Regular.ttf": "/cow-hide-exportation-website/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/Poppins-Medium.ttf": "/cow-hide-exportation-website/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
-    "static/media/Poppins-Bold.ttf": "/cow-hide-exportation-website/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
-    "static/media/Poppins-ExtraBold.ttf": "/cow-hide-exportation-website/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
     "static/media/handprint-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/handprint-svgrepo-com.22b9769716f9d67f7baebe0b2261d4d4.svg",
     "static/media/leather-fashion-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/leather-fashion-svgrepo-com.393abdba3228f831da924b459c426b50.svg",
     "static/media/africa-continent-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/africa-continent-svgrepo-com.a611d74871e55e20a447f34b2f17d3f0.svg",
     "index.html": "/cow-hide-exportation-website/index.html",
     "static/media/check-circle-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/check-circle-svgrepo-com.3de319c41b92a4c0dd92b54e47c09349.svg",
-    "main.847bb894.css.map": "/cow-hide-exportation-website/static/css/main.847bb894.css.map",
-    "main.5a627b17.js.map": "/cow-hide-exportation-website/static/js/main.5a627b17.js.map"
+    "main.58171b26.css.map": "/cow-hide-exportation-website/static/css/main.58171b26.css.map",
+    "main.ef4b39b0.js.map": "/cow-hide-exportation-website/static/js/main.ef4b39b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.847bb894.css",
-    "static/js/main.5a627b17.js"
+    "static/css/main.58171b26.css",
+    "static/js/main.ef4b39b0.js"
   ]
 }
