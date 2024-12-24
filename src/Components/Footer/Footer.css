@@ -19,14 +19,14 @@
     color: #000000;
     
     font-size: 1.3em;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .footer-container .sub-heading {
     margin-bottom: 5%;
     font-family: 'Poppins', sans-serif;
     color: #9F9F9F;
-    font-weight: 800;
+    font-weight: normal;
 }
 
 

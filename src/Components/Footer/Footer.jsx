@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Address Section */}
                 <section className="address-section">
                     <h3 className="footer-heading"> <b>Cow Hide Exportation, Ltd</b> </h3>
-                    <Text textWeight="bold"> 224 Rua Dos Irmaos Roby, Maputo 1110, Mozambique </Text>
+                    <Text> 224 Rua Dos Irmaos Roby, Maputo 1110, Mozambique </Text>
                 </section>
                 
                 {/* Links Section */}
@@ -18,19 +18,19 @@ const Footer = () => {
                     <h4 className="sub-heading"> Links </h4>
         
                     <a href="url" className="footer-link">
-                        <Text textColor="#000000" textWeight="bold"> Home </Text>
+                        <Text textColor="#000000"> Home </Text>
                     </a>
 
                     <a href="url" className="footer-link">
-                        <Text textColor="#000000" textWeight="bold"> Gallery </Text>
+                        <Text textColor="#000000"> Gallery </Text>
                     </a>
 
                     <a href="url" className="footer-link">
-                        <Text textColor="#000000" textWeight="bold"> About </Text>
+                        <Text textColor="#000000"> About </Text>
                     </a>
 
                     <a href="url" className="footer-link">
-                        <Text textColor="#000000" textWeight="bold"> Contact </Text>
+                        <Text textColor="#000000"> Contact </Text>
                     </a>
                 </section>
                 
@@ -40,7 +40,7 @@ const Footer = () => {
 
                     <section className="email-section">
                         <Text textSize="9pt"> Enter Your Email Address </Text>
-                        <Text textSize="9pt" textColor="#000000" textWeight="bold"> SUBSCRIBE</Text>
+                        <Text textSize="9pt" textColor="#000000"> SUBSCRIBE</Text>
                     </section>
                     
                 </section>
