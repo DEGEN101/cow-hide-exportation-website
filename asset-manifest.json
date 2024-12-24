@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/cow-hide-exportation-website/static/css/main.f855e6bc.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.87221e6a.js",
-    "static/media/logo.svg": "/cow-hide-exportation-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/cow-hide-exportation-website/static/css/main.6f18fa4c.css",
+    "main.js": "/cow-hide-exportation-website/static/js/main.b13c82ba.js",
+    "static/media/logo.png": "/cow-hide-exportation-website/static/media/logo.8edc36338f7a415b5767.png",
+    "static/media/title-card-image.jpg": "/cow-hide-exportation-website/static/media/title-card-image.1282e744a2ca3ecc8faf.jpg",
+    "static/media/Poppins-Italic.ttf": "/cow-hide-exportation-website/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
+    "static/media/Poppins-Light.ttf": "/cow-hide-exportation-website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/cow-hide-exportation-website/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/cow-hide-exportation-website/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-Bold.ttf": "/cow-hide-exportation-website/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/cow-hide-exportation-website/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/trophy-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/trophy-svgrepo-com.d824b8d5b444384e69858eb8bd367bf7.svg",
+    "static/media/warranty-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/warranty-svgrepo-com.ff466038690c77ff77edecb9f19abc49.svg",
+    "static/media/support-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/support-svgrepo-com.afdd7915e17a844a4f9a106c3d0afd26.svg",
     "index.html": "/cow-hide-exportation-website/index.html",
-    "main.f855e6bc.css.map": "/cow-hide-exportation-website/static/css/main.f855e6bc.css.map",
-    "main.87221e6a.js.map": "/cow-hide-exportation-website/static/js/main.87221e6a.js.map"
+    "main.6f18fa4c.css.map": "/cow-hide-exportation-website/static/css/main.6f18fa4c.css.map",
+    "main.b13c82ba.js.map": "/cow-hide-exportation-website/static/js/main.b13c82ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.87221e6a.js"
+    "static/css/main.6f18fa4c.css",
+    "static/js/main.b13c82ba.js"
   ]
 }
