@@ -1,4 +1,5 @@
 // Import Components
+import Header from "../../Components/Header/Header";
 import PackageCard from "../../Components/PackageCard/PackageCard";
 import Footer from "../../Components/Footer/Footer";
 import Text from "../../Components/Text/Text";
@@ -32,7 +33,7 @@ const Homepage = () => {
     // HTML Code
     return (
         <>
-            <h1>Homepage</h1>
+            <Header/>
             <section className="homepage-centre-container">
                 
                 {/* Homepage Banner */}
@@ -86,6 +87,23 @@ const Homepage = () => {
                 {/* Packages Section */}
                 <section className="packages-section">
                     <PackageCard packageInfo={premiumPackageInfo}/>
+                </section>
+
+                {/* Gallary Section */}
+                <section className="gallary-section">
+                    <Text textColor="#616161" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="3vmin" textWeight="bold" className="item subtitle"> 
+                        #CowHideExportation,Ltd 
+                    </Text>
+                    
+                    <img src={sampleCowHideImage} alt="item image-1"/>
+                    <img src={sampleCowHideImage} alt="item image-2"/>
+                    <img src={sampleCowHideImage} alt="item image-3"/>
+                    <img src={sampleCowHideImage} alt="item image-4"/>
+                    <img src={sampleCowHideImage} alt="item image-5"/>
+                    <img src={sampleCowHideImage} alt="item image-6"/>
+                    <img src={sampleCowHideImage} alt="item image-7"/>
+                    <img src={sampleCowHideImage} alt="item image-8"/>
                 </section>
             </section>
             <Footer/>
