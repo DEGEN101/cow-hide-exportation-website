@@ -13,8 +13,10 @@
     flex-direction: column;
     text-align: center;
 
-    margin: 0 28% 0 28%;
-    color : "#9F9F9F";
-    font-size : "10pt";
+    margin: 0 28% 5% 28%;
     font-weight:"regular";
+    font-family: 'Poppins', sans-serif;
+    color: #9F9F9F;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
