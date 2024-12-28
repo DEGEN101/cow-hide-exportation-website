@@ -1,5 +1,3 @@
-import Text from "../Text/Text";
-
 import "./Header.css"
 import logo from "../../Assets/Images/UI/logo.png";
 
