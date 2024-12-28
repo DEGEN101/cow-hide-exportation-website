@@ -2,8 +2,8 @@ import Text from "../Text/Text.jsx"
 
 import "./TitleCard.css";
 
-import logo from "../../Assets/Images/UI/logo.png";
-import titleCardImage from "../../Assets/Images/UI/title-card-image.jpg";
+import logo from "../../Assets/Images/UI/Icons/OG_Icons/logo.png";
+import titleCardImage from "../../Assets/Images/UI/Icons/OG_Icons/hide2.jpg";
 
 const TitleCard = ({title, subtitle}) => {
     return (
@@ -14,7 +14,7 @@ const TitleCard = ({title, subtitle}) => {
             <section className="content-container">
                 <img src={logo} alt="Logo"/>
                 <h1> {title} </h1>
-                <Text textColor="#000000"> <b> Home {">"} </b> {subtitle} </Text>
+                <Text textColor="#000000" textSize="9pt"> <b> Home {">"} </b> {subtitle} </Text>
             </section>
         </section>
     );
