@@ -1,7 +1,6 @@
 import TitleCard from "../../Components/TitleCard/TitleCard";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import Text from "../../Components/Text/Text";
 import Subheading from "../../Components/Subheading/Subheading";
 import ContactForm from "../../Components/ContactForm/ContactForm"
 import BrandPanel from "../../Components/BrandPanel/BrandPanel";
