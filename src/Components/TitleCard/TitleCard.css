@@ -1,6 +1,7 @@
 .title-card-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     width: 100vw;
     overflow: hidden;
@@ -16,14 +17,13 @@
 
 .title-card-container .image-container img {
     width: 100vw;
-    height: 600px;
+    height: 400px;
 
     mix-blend-mode: multiply;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .title-card-container .content-container {
-    margin-top: 2%;
     position: absolute;
     
     display: flex;
@@ -34,11 +34,11 @@
 }
 
 .title-card-container .content-container img{
-    height: 6vh;
+    height: 4vh;
 }
 
 .title-card-container .content-container h1{
 
-    font-size: 1.8rem;
-    font-weight: bolder;
+    font-size: 2rem;
+    font-weight: 500;
 }
