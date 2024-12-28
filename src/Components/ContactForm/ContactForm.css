@@ -1,14 +1,17 @@
 .contact-form-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 5%;
     padding: 2rem;
     font-family: Arial, sans-serif;
   }
   
   .contact-info {
     flex: 1;
+    max-width: 400px;
+
+
   }
   
   .contact-item {
@@ -17,8 +20,9 @@
     margin-bottom: 1.5rem;
   }
   
-  .contact-item .icon {
-    font-size: 1.5rem;
+  .contact-item .icon img {
+    width: 24px; 
+    height: 24px;
     margin-right: 1rem;
   }
   
