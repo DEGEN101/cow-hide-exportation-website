@@ -87,6 +87,23 @@ const Homepage = () => {
                 <section className="packages-section">
                     <PackageCard packageInfo={premiumPackageInfo}/>
                 </section>
+
+                {/* Gallary Section */}
+                <section className="gallary-section">
+                    <Text textColor="#616161" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="3vmin" textWeight="bold" className="item subtitle"> 
+                        #CowHideExportation,Ltd 
+                    </Text>
+                    
+                    <img src={sampleCowHideImage} alt="item image-1"/>
+                    <img src={sampleCowHideImage} alt="item image-2"/>
+                    <img src={sampleCowHideImage} alt="item image-3"/>
+                    <img src={sampleCowHideImage} alt="item image-4"/>
+                    <img src={sampleCowHideImage} alt="item image-5"/>
+                    <img src={sampleCowHideImage} alt="item image-6"/>
+                    <img src={sampleCowHideImage} alt="item image-7"/>
+                    <img src={sampleCowHideImage} alt="item image-8"/>
+                </section>
             </section>
             <Footer/>
         </>
