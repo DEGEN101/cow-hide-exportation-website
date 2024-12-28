@@ -1,4 +1,5 @@
 // Import Components
+import Header from "../../Components/Header/Header";
 import PackageCard from "../../Components/PackageCard/PackageCard";
 import Footer from "../../Components/Footer/Footer";
 import Text from "../../Components/Text/Text";
@@ -32,7 +33,7 @@ const Homepage = () => {
     // HTML Code
     return (
         <>
-            <h1>Homepage</h1>
+            <Header/>
             <section className="homepage-centre-container">
                 
                 {/* Homepage Banner */}
