@@ -1,6 +1,6 @@
 
 .aboutUs-page-center-container {
-    margin: 0 0 5vh 0;
+    margin: 5vh 0 5vh 0;
     display: flex;
     flex-direction: column;
 
@@ -10,25 +10,28 @@
 
 
 .intro-text-container {
-    margin: 5% 0 3% 0;
-    width: 70vw;
-    justify-self: center;
-    align-self: center;
+    width: auto;
+    max-width: 70vw;
+    margin-block: 5vh;
 
-    text-align: center;
+    text-align: justify;
 }
 
 .aboutUs-content-section {
     width: auto;
-    margin-inline: auto;
+    margin-inline-start: auto;
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap-reverse;
     justify-content: center;
+    align-items: center;
+
+    gap: 5vh 10vw;
 }
 
 .aboutUs-content-section .information-section-container {
-    max-width: 40vw;
+    min-width: 320px;
+    width: 35vw;
 
     display: flex;
     flex-direction: column;
@@ -41,7 +44,9 @@
 }
 
 .aboutUs-content-section .image-gallary {
+    min-width: 320px;
     max-width: 40vw;
+
     display: grid;
 
     grid-template-columns: repeat(7, minmax(1fr, 10px));
