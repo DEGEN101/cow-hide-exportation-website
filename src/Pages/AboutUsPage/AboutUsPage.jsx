@@ -9,7 +9,7 @@ import "./AboutUsPage.css";
 
 import imageA1 from "../../Assets/Images/UI/Icons/OG_Icons/A1.jpg";
 import imageA3 from "../../Assets/Images/UI/Icons/OG_Icons/A3.jpg";
-import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpeg";
+import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpg";
 import imageA5 from "../../Assets/Images/UI/Icons/OG_Icons/A5.jpg";
 
 const AboutUsPage = () => {

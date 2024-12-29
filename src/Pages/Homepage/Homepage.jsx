@@ -13,14 +13,14 @@ import africaContinentIcon from "../../Assets/Images/UI/Homepage/africa-continen
 import letherFashionIcon from "../../Assets/Images/UI/Homepage/leather-fashion-svgrepo-com.svg";
 import handprintIcon from "../../Assets/Images/UI/Homepage/handprint-svgrepo-com.svg";
 
-import imageI1 from "../../Assets/Images/UI/Icons/OG_Icons/i1.jpeg";
-import imageI2 from "../../Assets/Images/UI/Icons/OG_Icons/i2.jpeg";
+import imageI1 from "../../Assets/Images/UI/Icons/OG_Icons/i1.jpg";
+import imageI2 from "../../Assets/Images/UI/Icons/OG_Icons/i2.jpg";
 import imageI6 from "../../Assets/Images/UI/Icons/OG_Icons/i6.jpg";
-import imageI4 from "../../Assets/Images/UI/Icons/OG_Icons/i4.jpeg";
-import imageI7 from "../../Assets/Images/UI/Icons/OG_Icons/i7.jpeg";
-import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpeg";
-import imageI8 from "../../Assets/Images/UI/Icons/OG_Icons/i8.jpeg";
-import imageI5 from "../../Assets/Images/UI/Icons/OG_Icons/i5.jpeg";
+import imageI4 from "../../Assets/Images/UI/Icons/OG_Icons/i4.jpg";
+import imageI7 from "../../Assets/Images/UI/Icons/OG_Icons/i7.jpg";
+import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpg";
+import imageI8 from "../../Assets/Images/UI/Icons/OG_Icons/i8.jpg";
+import imageI5 from "../../Assets/Images/UI/Icons/OG_Icons/i5.jpg";
 
 
 const Homepage = () => {
@@ -100,8 +100,8 @@ const Homepage = () => {
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="25pt" textWeight="bold" className="item subtitle"> 
+                    <Text textColor="#616161" textSize="8pt" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="2.4vw" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>
                     <section className="item img-1"> 
