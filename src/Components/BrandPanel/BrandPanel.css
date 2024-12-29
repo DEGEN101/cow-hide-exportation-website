@@ -23,4 +23,5 @@
 
 .brand-panel-container .panel-item-image {
     width: 4vw;
+    min-width: 40px;
 }
