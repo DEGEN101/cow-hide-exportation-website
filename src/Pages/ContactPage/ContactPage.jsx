@@ -11,7 +11,7 @@ import "./ContactPage.css";
 const ContactPage = () => {
     return (
     <>
-    
+        <Header/>
         <TitleCard title="Contact Us" subtitle="Contact"/>
 
         <section className="information-section-container">
