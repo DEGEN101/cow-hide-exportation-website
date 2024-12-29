@@ -1,6 +1,6 @@
 .contact-form-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     gap: 5%;
     padding: 2rem;
