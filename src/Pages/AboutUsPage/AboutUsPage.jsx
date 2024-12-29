@@ -30,12 +30,16 @@ const AboutUsPage = () => {
                 <section className="information-section-container">
                     <Subheading> Who We Are </Subheading>
                     <Text>
-                        We are a dedicated team passionate about delivering top-tier natural cowhides. Our operations are rooted in transparency, reliability, and a deep understanding of the global leather market. By sourcing hides ethically and adhering to the highest tanning standards, we ensure every product meets and exceeds expectations.
+                        We are a dedicated team passionate about delivering top-tier natural cowhides. Our operations are rooted in transparency
+                        , reliability, and a deep understanding of the global leather market. By sourcing hides ethically and adhering to the 
+                        highest tanning standards, we ensure every product meets and exceeds expectations.
                     </Text>
 
                     <Subheading> What We Do </Subheading>
                     <Text>
-                        At <b> Cow Skin Exportation Ltd </b>, we focus exclusively on bulk supply, catering to businesses and manufacturers in need of consistent, high-quality materials. Our hides are available in a variety of natural tones, patterns, and sizes, perfect for diverse applications such as:
+                        At <b> Cow Skin Exportation Ltd </b>, we focus exclusively on bulk supply, catering to businesses and manufacturers in 
+                        need of consistent, high-quality materials. Our hides are available in a variety of natural tones, patterns, and sizes, 
+                        perfect for diverse applications such as:
                     </Text>
                     <ul>
                         <li>Upholstery for furniture</li>
@@ -45,7 +49,9 @@ const AboutUsPage = () => {
                     
                     <Subheading> Our Mission</Subheading>
                     <Text>
-                    To become a leading exporter of natural cowhides, providing businesses with reliable products that enhance their own offerings. We aim to build lasting partnerships by delivering exceptional value, competitive pricing, and unmatched customer service.
+                        To become a leading exporter of natural cowhides, providing businesses with reliable products that enhance their own 
+                        offerings. We aim to build lasting partnerships by delivering exceptional value, competitive pricing, and unmatched 
+                        customer service.
                     </Text>
                 </section>
                 <article className="image-gallary">
