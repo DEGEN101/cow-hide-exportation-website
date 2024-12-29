@@ -1,5 +1,5 @@
 .header-container {
-    width: 100vw;
+    width: auto;
 
     display: flex;
     justify-content: space-between;
@@ -12,10 +12,11 @@
     display: flex;
     align-items: center;
     width: 40%;
+    margin-left: 3%;
 }
 
 .header-logo {
-    width: 12%;
+    width: 5rem;
     height: auto;
     margin-right: 1%;
 }
