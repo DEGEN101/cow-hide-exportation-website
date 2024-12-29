@@ -1,3 +1,4 @@
+import Header from "../../Components/Header/Header";
 import TitleCard from "../../Components/TitleCard/TitleCard";
 import Footer from "../../Components/Footer/Footer";
 import Text from "../../Components/Text/Text";
@@ -6,10 +7,15 @@ import BrandPanel from "../../Components/BrandPanel/BrandPanel";
 
 import "./AboutUsPage.css";
 
+import imageA1 from "../../Assets/Images/UI/Icons/OG_Icons/A1.jpg";
+import imageA3 from "../../Assets/Images/UI/Icons/OG_Icons/A3.jpg";
+import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpeg";
+import imageA5 from "../../Assets/Images/UI/Icons/OG_Icons/A5.jpg";
 
 const AboutUsPage = () => {
     return (
-    <>
+    <>  
+        <Header/>
         <TitleCard title="About Us" subtitle="About"/>
 
         <section className="aboutUs-page-center-container">
@@ -42,9 +48,20 @@ const AboutUsPage = () => {
                     To become a leading exporter of natural cowhides, providing businesses with reliable products that enhance their own offerings. We aim to build lasting partnerships by delivering exceptional value, competitive pricing, and unmatched customer service.
                     </Text>
                 </section>
-                <section className="image-gallary">
-
-                </section>
+                <article className="image-gallary">
+                    <section className="item img-1">
+                        <img src={imageA5} alt="cow hide"/>
+                    </section>
+                    <section className="item img-2">
+                        <img src={imageA1} alt="cow hide"/>
+                    </section>
+                    <section className="item img-3">
+                        <img src={imageI3} alt="cow hide"/>
+                    </section>
+                    <section className="item img-4">
+                        <img src={imageA3} alt="cow hide"/>
+                    </section>
+                </article>
             </section>
         </section>
 

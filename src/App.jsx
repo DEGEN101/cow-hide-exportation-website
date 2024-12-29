@@ -6,7 +6,7 @@ import Homepage from './Pages/Homepage/Homepage';
 const App = () => {
   return (
     <>
-      <Homepage/>
+      <AboutUsPage/>
     </>
   );
 }
