@@ -1,5 +1,5 @@
 import "./Header.css"
-import logo from "../../Assets/Images/UI/logo.png";
+import logo from "../../Assets/Images/UI/Icons/OG_Icons/logo.png";
 
 const Header = () => {
 
