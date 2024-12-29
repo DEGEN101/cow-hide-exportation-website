@@ -47,7 +47,7 @@ const Footer = () => {
             </section>
 
             <section className="copyright-section">  
-                <p> 2025, Cow Skin Exportation Ltd. All rights reserved </p>
+                <Text textColor="#000000"> 2025, Cow Skin Exportation Ltd. All rights reserved </Text>
             </section>
         </section>
     </>
