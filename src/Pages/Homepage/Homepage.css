@@ -1,5 +1,5 @@
 .homepage-centre-container {
-    margin: 0 0 5% 0;
+    margin-block: 5vh;
     
     width: auto;
 
@@ -12,7 +12,6 @@
 
 .homepage-centre-container .homepage-banner-container {
     width: auto;
-    height: 75vh;
 
     display: flex;
     flex-direction: row;
@@ -28,7 +27,6 @@
 
 .homepage-banner-container .homepage-banner-content {
     width: 35%;
-    height: 60%;
 
     display: flex;
     flex-direction: column;
@@ -85,13 +83,14 @@
 }
 
 .homepage-centre-container .packages-section {
-    width: 100%;
-    height: 75vh;
+    width: auto;
+    margin-inline: max(10vw, 10px);
 
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5% 5%;
 }
 
 .homepage-centre-container .gallary-section {
