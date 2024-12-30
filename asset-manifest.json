@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cow-hide-exportation-website/static/css/main.b9e2ce8e.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.0f5222fd.js",
+    "main.js": "/cow-hide-exportation-website/static/js/main.b1a22719.js",
     "static/media/sample-cowhide-image.jpg": "/cow-hide-exportation-website/static/media/sample-cowhide-image.c0ece17f75036c37aa72.jpg",
     "static/media/i6.jpg": "/cow-hide-exportation-website/static/media/i6.189caae6c31e9bebdc58.jpg",
     "static/media/A5.jpg": "/cow-hide-exportation-website/static/media/A5.8dc004b1d05ab32ced3e.jpg",
@@ -27,10 +27,10 @@
     "index.html": "/cow-hide-exportation-website/index.html",
     "static/media/check-circle-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/check-circle-svgrepo-com.3de319c41b92a4c0dd92b54e47c09349.svg",
     "main.b9e2ce8e.css.map": "/cow-hide-exportation-website/static/css/main.b9e2ce8e.css.map",
-    "main.0f5222fd.js.map": "/cow-hide-exportation-website/static/js/main.0f5222fd.js.map"
+    "main.b1a22719.js.map": "/cow-hide-exportation-website/static/js/main.b1a22719.js.map"
   },
   "entrypoints": [
     "static/css/main.b9e2ce8e.css",
-    "static/js/main.0f5222fd.js"
+    "static/js/main.b1a22719.js"
   ]
 }
