@@ -65,11 +65,11 @@ const Homepage = () => {
                 
                 {/* Homepage Text Content */}
                 <section className="homepage-content-container">
-                    <Text>
+                    <Text textSize="max(1vw, 8pt)">
                         As one of the top cowhide suppliers in the country, we ensure reliable, consistent exports that 
                         uphold Mozambique's rich leather working traditions.
                     </Text>
-                    <Text>
+                    <Text textSize="max(1vw, 8pt)">
                         We offer a wide variety of premium cowhides, meticulously handcrafted and ethically sourced from Mozambique's 
                         finest cattle. As one of the leading cowhide providers and distributors in the country, we take pride in delivering 
                         top-quality hides that meet international standards. Our collection boasts a range of textures, colors, and patterns, 

@@ -1,8 +1,6 @@
 .homepage-centre-container {
-    margin-block: 5vh;
-    
     width: auto;
-
+    
     display: flex;
     flex-direction: column;
 
@@ -11,8 +9,10 @@
 }
 
 .homepage-centre-container .homepage-banner-container {
+    margin-block: max(50px, 10vh);
+    margin-inline: max(12vw, 10px);
+
     width: auto;
-    margin-inline: 10vw;
 
     display: flex;
     flex-direction: row;
@@ -37,7 +37,6 @@
 }
 
 .homepage-banner-container .homepage-banner-content button {
-    margin: 2vw 0 0 0;
     width: 12vw;
     min-width: 100px;
     
@@ -50,24 +49,23 @@
 }
 
 .homepage-centre-container .homepage-content-container {
-    margin-top: 15vh;
-    
-    width: 75%;
+    width: 60%;
+    margin-inline: max(10vw, 10px);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 
-    gap: 10%;
+    gap: max(2vw, 10px);
+    text-align: justify;
 }
 
 .homepage-centre-container .homepage-banner {
-    width: 60vw;
-    min-width: 320px;
+    margin-block: max(50px, 10vh);
 
-    margin-inline: 5vw;
-    margin-block: 15vh;
+    width: 60vw;
+    min-width: 375px;
 
     display: flex;
     flex-direction: row;
@@ -90,8 +88,8 @@
 }
 
 .homepage-centre-container .packages-section {
-    width: auto;
     margin-inline: max(10vw, 10px);
+    width: auto;
 
     display: flex;
     flex-flow: row wrap;
@@ -101,7 +99,8 @@
 }
 
 .homepage-centre-container .gallary-section {
-    margin-block: 15vh;
+    margin-block: max(50px, 10vh);
+
     width: auto;
 
     display: grid;
