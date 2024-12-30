@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes} from 'react-router-dom'; 
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'; 
 
 import Homepage from './Pages/Homepage/Homepage';
 import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
@@ -7,7 +7,7 @@ import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
 
 const App = () => {
     return (
-        <Router hashType="slash">
+        <Router basename="">
             <Routes>
                 <Route path="/" exact element={<Homepage/> }/>
                 <Route path="/home" element={<Homepage />} />
