@@ -49,16 +49,16 @@ const Homepage = () => {
                 <article className="homepage-banner-container">
                     <img src={sampleCowHideImage} alt="cow hide"/>
                     <section className="homepage-banner-content">
-                        <Text textColor="#000000" textSize="0.8vw" textWeight="bold">New Arrival</Text>
+                        <Text textColor="#000000" textSize="max(0.8vw, 6pt)" textWeight="bold">New Arrival</Text>
                         
-                        <Text textColor="#B88E2F" textWeight="bold" textSize="2.6vw">
+                        <Text textColor="#B88E2F" textWeight="bold" textSize="max(2.6vw, 13pt)">
                             Import Premium Cowhides
                         </Text>
-                        <Text textColor="#000000" textSize="1.1vw">
+                        <Text textColor="#000000" textSize="max(1.1vw, 7pt)">
                             Discover top-quality cowhides crafted for export. Perfect for upholstery, décor, and leather goods.
                         </Text>
                         <button onClick={null}> 
-                            <Text textColor="#FFFFFF" textSize="0.8vw" textWeight="bold"> CONTACT US </Text>
+                            <Text textColor="#FFFFFF" textSize="max(0.8vw, 6pt)" textWeight="bold"> CONTACT US </Text>
                         </button>
                     </section>
                 </article>
