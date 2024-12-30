@@ -9,10 +9,12 @@
 }
 
 .homepage-centre-container .homepage-banner-container {
-    margin-block: max(50px, 10vh);
+    margin-block: max(50px, 10dvh);
     margin-inline: max(12vw, 10px);
 
     width: auto;
+    max-height: 600px;
+    min-height: 165px;
 
     display: flex;
     flex-direction: row;
@@ -40,8 +42,8 @@
     width: 12vw;
     min-width: 100px;
     
-    height: 7vh;
     min-height: 30px;
+    padding: min(1vw, 10px);
 
     background-color: #B88E2F;
 
@@ -62,7 +64,7 @@
 }
 
 .homepage-centre-container .homepage-banner {
-    margin-block: max(50px, 10vh);
+    margin-block: max(50px, 10dvh);
 
     width: 60vw;
     min-width: 375px;
@@ -99,7 +101,7 @@
 }
 
 .homepage-centre-container .gallary-section {
-    margin-block: max(50px, 10vh);
+    margin-block: max(50px, 10dvh);
 
     width: auto;
 
