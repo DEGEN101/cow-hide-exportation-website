@@ -81,15 +81,15 @@ const Homepage = () => {
                 <section className="homepage-banner">
                     <section className="banner-image-container">
                         <img className="banner-image" src={africaContinentIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Ethically Sourced </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Ethically Sourced </Text>
                     </section>
                     <section className="banner-image-container">
                         <img className="banner-image" src={letherFashionIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Professionally Tanned </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Professionally Tanned </Text>
                     </section>
                     <section className="banner-image-container">
                         <img className="banner-image" src={handprintIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Hand Selected </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Hand Selected </Text>
                     </section>
                 </section>
 
