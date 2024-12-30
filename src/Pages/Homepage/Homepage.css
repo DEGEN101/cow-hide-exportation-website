@@ -1,8 +1,6 @@
 .homepage-centre-container {
-    margin: 0 0 5% 0;
-    
     width: auto;
-
+    
     display: flex;
     flex-direction: column;
 
@@ -11,24 +9,27 @@
 }
 
 .homepage-centre-container .homepage-banner-container {
+    margin-block: max(50px, 10vh);
+    margin-inline: max(12vw, 10px);
+
     width: auto;
-    height: 75vh;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    gap: 10%;
+    gap: 5%;
 }
 
 .homepage-centre-container .homepage-banner-container img {
-    width: 75vmin;
+    max-width: 40vw;
+    min-width: 80px;
 }
 
 .homepage-banner-container .homepage-banner-content {
-    width: 35%;
-    height: 60%;
+    width: 40%;
+    min-width: 200px;
 
     display: flex;
     flex-direction: column;
@@ -36,9 +37,11 @@
 }
 
 .homepage-banner-container .homepage-banner-content button {
-    margin: 2vw 0 0 0;
     width: 12vw;
+    min-width: 100px;
+    
     height: 7vh;
+    min-height: 30px;
 
     background-color: #B88E2F;
 
@@ -47,55 +50,57 @@
 
 .homepage-centre-container .homepage-content-container {
     width: 60%;
-    height: 30vh;
+    margin-inline: max(10vw, 10px);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 
-    gap: 10%;
+    gap: max(2vw, 10px);
+    text-align: justify;
 }
 
 .homepage-centre-container .homepage-banner {
-    margin: 5% 0 5% 0;
-    width: 50vw;
-    height: 30vh;
+    margin-block: max(50px, 10vh);
+
+    width: 60vw;
+    min-width: 375px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .homepage-banner .banner-image-container {
-    height: 100%;
-    width: 25%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    gap: 3%;
+    gap: 5%;
 }
 
 .homepage-banner .banner-image-container .banner-image {
-    width: 85%;
+    max-width: 12vw;
+    min-width: 90px;
 }
 
 .homepage-centre-container .packages-section {
-    width: 100%;
-    height: 75vh;
+    margin-inline: max(10vw, 10px);
+    width: auto;
 
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5% 5%;
 }
 
 .homepage-centre-container .gallary-section {
-    margin: 5% 0 0 0;
+    margin-block: max(50px, 10vh);
+
     width: auto;
 
     display: grid;
