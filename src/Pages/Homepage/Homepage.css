@@ -44,8 +44,7 @@
 }
 
 .homepage-centre-container .homepage-content-container {
-    width: 60%;
-    height: 30vh;
+    width: 75%;
 
     display: flex;
     flex-direction: column;
