@@ -7,7 +7,7 @@ import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
 
 const App = () => {
     return (
-        <Router basename="">
+        <Router basename="/cow-hide-exportation-website">
             <Routes>
                 <Route path="/" exact element={<Homepage/> }/>
                 <Route path="/home" element={<Homepage />} />
