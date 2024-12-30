@@ -13,8 +13,8 @@ const PanelItem = ({ imageSrc, altText, title, text }) => {
         <section className="panel-item-container">
             <img className="panel-item-image" src={imageSrc} alt={altText}/>
             <section className="panel-item-text-content">
-                <Text textSize="1.2vw" textWeight="bold" textColor="#000000"> {title} </Text>
-                <Text textSize="0.9vw" textWeight="bold"> {text} </Text>
+                <Text textSize="max(1.2vw, 7pt)" textWeight="bold" textColor="#000000"> {title} </Text>
+                <Text textSize="max(0.9vw, 5pt)" textWeight="bold"> {text} </Text>
             </section>
         </section>
     );
