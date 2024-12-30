@@ -13,6 +13,15 @@ import africaContinentIcon from "../../Assets/Images/UI/Homepage/africa-continen
 import letherFashionIcon from "../../Assets/Images/UI/Homepage/leather-fashion-svgrepo-com.svg";
 import handprintIcon from "../../Assets/Images/UI/Homepage/handprint-svgrepo-com.svg";
 
+import imageI1 from "../../Assets/Images/UI/Icons/OG_Icons/i1.jpg";
+import imageI2 from "../../Assets/Images/UI/Icons/OG_Icons/i2.jpg";
+import imageI6 from "../../Assets/Images/UI/Icons/OG_Icons/i6.jpg";
+import imageI4 from "../../Assets/Images/UI/Icons/OG_Icons/i4.jpg";
+import imageI7 from "../../Assets/Images/UI/Icons/OG_Icons/i7.jpg";
+import imageI3 from "../../Assets/Images/UI/Icons/OG_Icons/i3.jpg";
+import imageI8 from "../../Assets/Images/UI/Icons/OG_Icons/i8.jpg";
+import imageI5 from "../../Assets/Images/UI/Icons/OG_Icons/i5.jpg";
+
 
 const Homepage = () => {
     // Variables
@@ -91,19 +100,34 @@ const Homepage = () => {
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="3vmin" textWeight="bold" className="item subtitle"> 
+                    <Text textColor="#616161" textSize="8pt" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="2.4vw" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>
-                    
-                    <img src={sampleCowHideImage} alt="item image-1"/>
-                    <img src={sampleCowHideImage} alt="item image-2"/>
-                    <img src={sampleCowHideImage} alt="item image-3"/>
-                    <img src={sampleCowHideImage} alt="item image-4"/>
-                    <img src={sampleCowHideImage} alt="item image-5"/>
-                    <img src={sampleCowHideImage} alt="item image-6"/>
-                    <img src={sampleCowHideImage} alt="item image-7"/>
-                    <img src={sampleCowHideImage} alt="item image-8"/>
+                    <section className="item img-1"> 
+                        <img src={imageI1} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-2"> 
+                        <img src={imageI2} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-3"> 
+                        <img src={imageI6} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-4"> 
+                        <img src={imageI4} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-5"> 
+                        <img src={imageI7} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-6"> 
+                        <img src={imageI3} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-7"> 
+                        <img src={imageI8} alt="cow hide"/> 
+                    </section>
+                    <section className="item img-8"> 
+                        <img src={imageI5} alt="cow hide"/> 
+                    </section>
                 </section>
             </section>
             <Footer/>
