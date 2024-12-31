@@ -104,6 +104,7 @@
     margin-block: max(50px, 10dvh);
 
     width: auto;
+    min-height: 175px;
 
     display: grid;
     grid-template-columns: repeat(13, minmax(1fr, 20vw));
