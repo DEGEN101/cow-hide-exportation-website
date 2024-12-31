@@ -100,8 +100,8 @@ const Homepage = () => {
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" textSize="8pt" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="2.4vw" textWeight="bold" className="item subtitle"> 
+                    <Text textColor="#616161" textSize="max(8pt" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>
                     <section className="item img-1"> 
