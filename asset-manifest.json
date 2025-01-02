@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cow-hide-exportation-website/static/css/main.19f0c8f0.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.9961b2e1.js",
+    "main.css": "/cow-hide-exportation-website/static/css/main.8e540538.css",
+    "main.js": "/cow-hide-exportation-website/static/js/main.49b087ca.js",
     "static/media/sample-cowhide-image.jpg": "/cow-hide-exportation-website/static/media/sample-cowhide-image.c0ece17f75036c37aa72.jpg",
     "static/media/i6.jpg": "/cow-hide-exportation-website/static/media/i6.189caae6c31e9bebdc58.jpg",
     "static/media/A5.jpg": "/cow-hide-exportation-website/static/media/A5.8dc004b1d05ab32ced3e.jpg",
@@ -25,12 +25,14 @@
     "static/media/warranty-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/warranty-svgrepo-com.ff466038690c77ff77edecb9f19abc49.svg",
     "static/media/support-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/support-svgrepo-com.afdd7915e17a844a4f9a106c3d0afd26.svg",
     "index.html": "/cow-hide-exportation-website/index.html",
+    "static/media/close-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/close-svgrepo-com.3679f386ffd792ab51f2aac881e12083.svg",
+    "static/media/burger-menu-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/check-circle-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/check-circle-svgrepo-com.3de319c41b92a4c0dd92b54e47c09349.svg",
-    "main.19f0c8f0.css.map": "/cow-hide-exportation-website/static/css/main.19f0c8f0.css.map",
-    "main.9961b2e1.js.map": "/cow-hide-exportation-website/static/js/main.9961b2e1.js.map"
+    "main.8e540538.css.map": "/cow-hide-exportation-website/static/css/main.8e540538.css.map",
+    "main.49b087ca.js.map": "/cow-hide-exportation-website/static/js/main.49b087ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f0c8f0.css",
-    "static/js/main.9961b2e1.js"
+    "static/css/main.8e540538.css",
+    "static/js/main.49b087ca.js"
   ]
 }
