@@ -16,8 +16,6 @@ const Header = () => {
         else {
             setToggleMobileNavigation("false");
         }
-
-        console.log(toggleMobileNavigation);
     }
 
     return (
@@ -32,7 +30,7 @@ const Header = () => {
             <button  
                 onClick={() => onMobileNavidationButtonClick()} aria-controls="header-nav" 
                 className="modile-toggle-nav" aria-expanded={toggleMobileNavigation}> 
-                <img src={toggleMobileNavigation === "false" ? burgerIcon : closeIcon} alt="navigation burger icon"/>
+                <img src={toggleMobileNavigation === "false" ? burgerIcon : closeIcon} alt="toggle mobile navigation icon"/>
             </button>
 
             <nav>
