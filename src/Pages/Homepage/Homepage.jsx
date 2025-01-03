@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 // Import Components
 import Header from "../../Components/Header/Header";
 import PackageCard from "../../Components/PackageCard/PackageCard";
@@ -25,6 +27,8 @@ import imageI5 from "../../Assets/Images/UI/Icons/OG_Icons/i5.jpg";
 
 const Homepage = () => {
     // Variables
+    const navigate = useNavigate();
+
     const premiumPackageInfo = {
         TITLE: "Premium  Package",
         SUBTITLE: "Export & Import",
@@ -38,6 +42,9 @@ const Homepage = () => {
     };
 
     // Logic & Functions
+    const onContactUsButtonClick = () => {
+        navigate("/contact");
+    }
 
     // HTML Code
     return (
@@ -57,7 +64,7 @@ const Homepage = () => {
                         <Text textColor="#000000" textSize="max(1.1vw, 7pt)">
                             Discover top-quality cowhides crafted for export. Perfect for upholstery, décor, and leather goods.
                         </Text>
-                        <button onClick={null}> 
+                        <button onClick={() => onContactUsButtonClick()}> 
                             <Text textColor="#FFFFFF" textSize="max(0.8vw, 6pt)" textWeight="bold"> CONTACT US </Text>
                         </button>
                     </section>
@@ -95,13 +102,13 @@ const Homepage = () => {
 
                 {/* Packages Section */}
                 <section className="packages-section">
-                    <PackageCard packageInfo={premiumPackageInfo}/>
+                    <PackageCard packageInfo={premiumPackageInfo} onClick={() => onContactUsButtonClick()}/>
                 </section>
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" textSize="8pt" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="2.4vw" textWeight="bold" className="item subtitle"> 
+                    <Text textColor="#616161" textSize="max(8pt" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>
                     <section className="item img-1"> 

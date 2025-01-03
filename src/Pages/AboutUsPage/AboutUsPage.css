@@ -35,10 +35,13 @@
 
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    
+    text-align: left;
 }
 
 .aboutUs-content-section .information-section-container li{
-    margin-left: 4%;
+    margin-left: 10%;
     font-size: 10pt;
     color: #9F9F9F;
 }

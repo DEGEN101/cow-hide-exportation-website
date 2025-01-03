@@ -17,19 +17,19 @@ const Footer = () => {
                 <section className="links-section">
                     <h4 className="sub-heading"> Links </h4>
         
-                    <a href="url" className="footer-link">
+                    <a href="#/home" className="footer-link">
                         <Text textColor="#000000"> Home </Text>
                     </a>
 
-                    <a href="url" className="footer-link">
+                    <a href="#/gallary" className="footer-link">
                         <Text textColor="#000000"> Gallery </Text>
                     </a>
 
-                    <a href="url" className="footer-link">
+                    <a href="#/about" className="footer-link">
                         <Text textColor="#000000"> About </Text>
                     </a>
 
-                    <a href="url" className="footer-link">
+                    <a href="#/contact" className="footer-link">
                         <Text textColor="#000000"> Contact </Text>
                     </a>
                 </section>
