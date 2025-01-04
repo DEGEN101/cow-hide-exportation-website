@@ -9,12 +9,12 @@
 }
 
 .homepage-centre-container .homepage-banner-container {
-    margin-block: max(50px, 10dvh);
+    margin-block: 1em 2em;
     margin-inline: max(12vw, 10px);
 
     width: auto;
     max-height: 600px;
-    min-height: 165px;
+    min-height: 200px;
 
     display: flex;
     flex-direction: row;
@@ -36,6 +36,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    gap: 0.4em;
 }
 
 .homepage-banner-container .homepage-banner-content button {
@@ -61,18 +63,27 @@
 
     gap: max(2vw, 10px);
     text-align: justify;
+
+    @media ( max-width: 640px) {
+        width: auto;
+        margin-inline: max(12vw, 10px);
+    }
 }
 
 .homepage-centre-container .homepage-banner {
     margin-block: max(50px, 10dvh);
 
     width: 60vw;
-    min-width: 375px;
+    min-width: 320px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    @media ( max-width: 640px) {
+        margin-block: 3em;
+    }
 }
 
 .homepage-banner .banner-image-container {
@@ -86,7 +97,7 @@
 
 .homepage-banner .banner-image-container .banner-image {
     max-width: 12vw;
-    min-width: 90px;
+    min-width: 80px;
 }
 
 .homepage-centre-container .packages-section {
@@ -104,7 +115,7 @@
     margin-block: max(50px, 10dvh);
 
     width: auto;
-    min-height: 175px;
+    min-height: 300px;
     max-height: 480px;
 
     display: grid;
@@ -112,6 +123,11 @@
     grid-template-rows: repeat(13, minmax(14.5px, 1fr));
 
     gap: 5pt 5pt;
+    
+    @media ( max-width: 640px) {
+        margin-block: 3em;
+        aspect-ratio: 1.4;
+    }
 }
 
 .homepage-centre-container .gallary-section section {
