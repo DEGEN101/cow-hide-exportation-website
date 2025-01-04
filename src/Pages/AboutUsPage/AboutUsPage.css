@@ -1,6 +1,6 @@
 
 .aboutUs-page-center-container {
-    margin: 5vh 0 5vh 0;
+    margin-block: 0em 5em;
     display: flex;
     flex-direction: column;
 
@@ -8,13 +8,39 @@
     justify-content: center;
 }
 
+@media (max-width: 40em) {
+    .aboutUs-page-center-container {
+        margin-block: 0em 2em;
+    }
+}
+
 
 .intro-text-container {
     width: auto;
     max-width: 70vw;
-    margin-block: 5vh;
+    margin-block: 2em;
 
-    text-align: center;
+    text-align: justify;
+}
+
+@media (max-width: 54em) {
+    .intro-text-container {
+        max-width: 100%;
+        margin-block: 2em;
+        margin-inline: 3em;
+
+        text-align: justify;
+    }
+}
+
+@media (max-width: 40em) {
+    .intro-text-container {
+        max-width: 100%;
+        margin-block: 2em;
+        margin-inline: 1.5em;
+
+        text-align: justify;
+    }
 }
 
 .aboutUs-content-section {
@@ -42,7 +68,7 @@
 
 .aboutUs-content-section .information-section-container li{
     margin-left: 10%;
-    font-size: 10pt;
+    font-size: max(1.1vw, 0.75rem);
     color: #9F9F9F;
 }
 
