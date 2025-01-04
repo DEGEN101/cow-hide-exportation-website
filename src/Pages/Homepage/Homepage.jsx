@@ -102,7 +102,7 @@ const Homepage = () => {
 
                 {/* Packages Section */}
                 <section className="packages-section">
-                    <PackageCard packageInfo={premiumPackageInfo} onClick={() => onContactUsButtonClick()}/>
+                    <PackageCard packageInfo={premiumPackageInfo} onClickTrigger={() => onContactUsButtonClick()}/>
                 </section>
 
                 {/* Gallary Section */}

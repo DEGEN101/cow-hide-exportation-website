@@ -62,6 +62,10 @@
     border-width: 0;
 }
 
+.homepage-banner-container .homepage-banner-content button:hover {
+    background-color: #A98144;
+}
+
 .homepage-centre-container .homepage-content-container {
     width: 60%;
     margin-inline: max(10vw, 10px);
