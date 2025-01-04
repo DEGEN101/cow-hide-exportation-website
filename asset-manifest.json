@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cow-hide-exportation-website/static/css/main.9b18f6ce.css",
-    "main.js": "/cow-hide-exportation-website/static/js/main.6382267d.js",
+    "main.js": "/cow-hide-exportation-website/static/js/main.7c48ac4b.js",
     "static/media/sample-cowhide-image.jpg": "/cow-hide-exportation-website/static/media/sample-cowhide-image.c0ece17f75036c37aa72.jpg",
     "static/media/i6.jpg": "/cow-hide-exportation-website/static/media/i6.189caae6c31e9bebdc58.jpg",
     "static/media/A5.jpg": "/cow-hide-exportation-website/static/media/A5.8dc004b1d05ab32ced3e.jpg",
@@ -29,10 +29,10 @@
     "static/media/burger-menu-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/burger-menu-svgrepo-com.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/check-circle-svgrepo-com.svg": "/cow-hide-exportation-website/static/media/check-circle-svgrepo-com.3de319c41b92a4c0dd92b54e47c09349.svg",
     "main.9b18f6ce.css.map": "/cow-hide-exportation-website/static/css/main.9b18f6ce.css.map",
-    "main.6382267d.js.map": "/cow-hide-exportation-website/static/js/main.6382267d.js.map"
+    "main.7c48ac4b.js.map": "/cow-hide-exportation-website/static/js/main.7c48ac4b.js.map"
   },
   "entrypoints": [
     "static/css/main.9b18f6ce.css",
-    "static/js/main.6382267d.js"
+    "static/js/main.7c48ac4b.js"
   ]
 }
