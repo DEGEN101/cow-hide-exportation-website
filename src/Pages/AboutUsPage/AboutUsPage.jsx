@@ -20,7 +20,7 @@ const AboutUsPage = () => {
 
         <section className="aboutUs-page-center-container">
             <section className="intro-text-container">
-                <Text textSize="max(1.1vw, 0.75rem)" >
+                <Text textSize="max(1.1vw, 0.8rem)" >
                     Welcome to <b> Cow Skin Exportation, Ltd </b>, a trusted supplier and exporter of high-quality cowhides to 
                     businesses worldwide. With a commitment to excellence and customer satisfaction, we specialize in providing 
                     premium hides tailored for industries ranging from furniture and upholstery to leather crafting and home décor.
@@ -29,14 +29,14 @@ const AboutUsPage = () => {
             <section className="aboutUs-content-section">
                 <section className="information-section-container">
                     <Subheading> Who We Are </Subheading>
-                    <Text textSize="max(1.1vw, 0.75rem)" >
+                    <Text textSize="max(1.1vw, 0.8rem)" >
                         We are a dedicated team passionate about delivering top-tier natural cowhides. Our operations are rooted in transparency
                         , reliability, and a deep understanding of the global leather market. By sourcing hides ethically and adhering to the 
                         highest tanning standards, we ensure every product meets and exceeds expectations.
                     </Text>
 
                     <Subheading> What We Do </Subheading>
-                    <Text textSize="max(1.1vw, 0.75rem)" >
+                    <Text textSize="max(1.1vw, 0.8rem)" >
                         At <b> Cow Skin Exportation Ltd </b>, we focus exclusively on bulk supply, catering to businesses and manufacturers in 
                         need of consistent, high-quality materials. Our hides are available in a variety of natural tones, patterns, and sizes, 
                         perfect for diverse applications such as:
@@ -48,7 +48,7 @@ const AboutUsPage = () => {
                     </ul>
                     
                     <Subheading> Our Mission</Subheading>
-                    <Text textSize="max(1.1vw, 0.75rem)" >
+                    <Text textSize="max(1.1vw, 0.8rem)" >
                         To become a leading exporter of natural cowhides, providing businesses with reliable products that enhance their own 
                         offerings. We aim to build lasting partnerships by delivering exceptional value, competitive pricing, and unmatched 
                         customer service.
