@@ -24,13 +24,21 @@
     gap: 5%;
 }
 
+@media (max-width: 40em) {
+    .homepage-centre-container .homepage-banner-container {
+        margin-inline: 0em;
+
+        justify-content: space-around;
+    }
+}
+
 .homepage-centre-container .homepage-banner-container img {
     max-width: 40vw;
     min-width: 80px;
 }
 
 .homepage-banner-container .homepage-banner-content {
-    width: 40%;
+    width: 50%;
     min-width: 200px;
 
     display: flex;
@@ -38,6 +46,8 @@
     justify-content: center;
 
     gap: 0.4em;
+
+    text-align: left;
 }
 
 .homepage-banner-container .homepage-banner-content button {

@@ -61,7 +61,7 @@ const Homepage = () => {
                         <Text textColor="#B88E2F" textWeight="bold" textSize="max(2.6vw, 13pt)">
                             Import Premium Cowhides
                         </Text>
-                        <Text textColor="#000000" textSize="max(1.1vw, 8pt)">
+                        <Text textColor="#000000" textSize="max(1.1vw, 7pt)">
                             Discover top-quality cowhides crafted for export. Perfect for upholstery, décor, and leather goods.
                         </Text>
                         <button onClick={() => onContactUsButtonClick()}> 
