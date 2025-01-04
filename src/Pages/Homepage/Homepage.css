@@ -67,7 +67,7 @@
 
 @media (max-width: 40em) {
     .homepage-centre-container .homepage-content-container {
-        width: 90%;
+        width: 85%;
         max-width: 26em;
         /* margin-inline: max(5vw, 20px);    */
     }
