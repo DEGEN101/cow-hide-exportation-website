@@ -52,7 +52,7 @@
     justify-content: center;
     align-items: center;
 
-    gap: 5vh 10vw;
+    gap: 1em 10vw;
 }
 
 .aboutUs-content-section .information-section-container {
@@ -63,7 +63,7 @@
     flex-direction: column;
     align-items: flex-start;
     
-    text-align: left;
+    text-align:unset;
 }
 
 .aboutUs-content-section .information-section-container li{
@@ -78,9 +78,9 @@
 
     display: grid;
 
-    grid-template-columns: repeat(7, minmax(1fr, 10px));
-    grid-template-rows: repeat(8, minmax(1fr, 10px));
-    gap: 10px;
+    grid-template-columns: repeat(7, minmax(1fr,  1em));
+    grid-template-rows: repeat(8, minmax(1fr,  1em));
+    gap: 1em;
 }
 
 .aboutUs-content-section .image-gallary section {
