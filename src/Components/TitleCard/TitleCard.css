@@ -40,7 +40,13 @@
 }
 
 .title-card-container .content-container img{
-    height: 4vh;
+    height: 3em;
+}
+
+@media (max-width: 40em) {
+    .title-card-container .content-container img{
+        height: 2em;
+    }
 }
 
 .title-card-container .content-container h1{
