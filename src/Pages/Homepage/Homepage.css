@@ -63,10 +63,13 @@
 
     gap: max(2vw, 10px);
     text-align: justify;
+}
 
-    @media ( max-width: 640px) {
-        width: auto;
-        margin-inline: 1.5em;
+@media (max-width: 40em) {
+    .homepage-centre-container .homepage-content-container {
+        width: 90%;
+        max-width: 26em;
+        /* margin-inline: max(5vw, 20px);    */
     }
 }
 
@@ -80,8 +83,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
-    @media ( max-width: 640px) {
+@media ( max-width: 640px) {
+    .homepage-centre-container .homepage-banner {
         margin-block: 3em;
     }
 }
@@ -123,8 +128,10 @@
     grid-template-rows: repeat(13, minmax(14.5px, 1fr));
 
     gap: 5pt 5pt;
-    
-    @media ( max-width: 640px) {
+}
+
+@media ( max-width: 640px) {
+    .homepage-centre-container .gallary-section {
         margin-block: 3em;
         aspect-ratio: 1.4;
     }
