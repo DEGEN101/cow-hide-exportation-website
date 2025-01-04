@@ -10,9 +10,15 @@
 .title-card-container .image-container {
     overflow: hidden;
     width: 100%;
-    height: 35vh;
+    max-height: 15em;
 
     background-color: rgba(200, 200, 200, 1);
+}
+
+@media (max-width: 40em) {
+    .title-card-container .image-container {
+        max-height: 12em;
+    }
 }
 
 .title-card-container .image-container img {
