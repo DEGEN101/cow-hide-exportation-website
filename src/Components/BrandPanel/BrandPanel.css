@@ -1,13 +1,30 @@
 .brand-panel-container {
     width: auto;
-    height: 25vh;
-    margin: 0 0 2% 0;
+    min-height: 200px;
+
+    margin-block: 2rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
     background-color:#FAF3EA;
+}
+
+/* Tablet view */
+@media (max-width: 65rem) {
+    .brand-panel-container {
+        min-height: 150px;
+        margin-block: 1.5rem;
+    }
+}
+
+/* Smartphone view */
+@media (max-width: 40rem) {
+    .brand-panel-container {
+        min-height: 125px;
+        margin-block: 1rem;
+    }
 }
 
 .panel-item-container{
