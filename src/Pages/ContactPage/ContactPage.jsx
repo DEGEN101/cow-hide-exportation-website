@@ -14,16 +14,19 @@ const ContactPage = () => {
         <Header/>
         <TitleCard title="Contact Us" subtitle="Contact"/>
 
-        <section className="information-section-container">
-                    <Subheading> 
-                        Get In Touch With Us 
-                    </Subheading>
+        <section className="contact-us-page-container">
+            <section className="information-section-container">
+                        <Subheading> 
+                            Get In Touch With Us 
+                        </Subheading>
 
-        </section>
-        <section className="subtext">
-                    
-                    For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!
-                    
+            </section>
+            <section className="subtext">
+                <p>
+                    For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. 
+                    Our Staff Always Be There To Help You Out. Do Not Hesitate!
+                </p>
+            </section>
         </section>
 
         <ContactForm/>
