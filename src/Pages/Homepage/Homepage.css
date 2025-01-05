@@ -9,12 +9,12 @@
 }
 
 .homepage-centre-container .homepage-banner-container {
-    margin-block: max(50px, 10dvh);
+    margin-block: 1em 2em;
     margin-inline: max(12vw, 10px);
 
     width: auto;
     max-height: 600px;
-    min-height: 165px;
+    min-height: 200px;
 
     display: flex;
     flex-direction: row;
@@ -24,18 +24,30 @@
     gap: 5%;
 }
 
+@media (max-width: 40em) {
+    .homepage-centre-container .homepage-banner-container {
+        margin-inline: 0em;
+
+        justify-content: space-around;
+    }
+}
+
 .homepage-centre-container .homepage-banner-container img {
     max-width: 40vw;
     min-width: 80px;
 }
 
 .homepage-banner-container .homepage-banner-content {
-    width: 40%;
+    width: 50%;
     min-width: 200px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    gap: 0.4em;
+
+    text-align: left;
 }
 
 .homepage-banner-container .homepage-banner-content button {
@@ -48,6 +60,10 @@
     background-color: #B88E2F;
 
     border-width: 0;
+}
+
+.homepage-banner-container .homepage-banner-content button:hover {
+    background-color: #A98144;
 }
 
 .homepage-centre-container .homepage-content-container {
@@ -63,16 +79,30 @@
     text-align: justify;
 }
 
+@media (max-width: 40em) {
+    .homepage-centre-container .homepage-content-container {
+        width: 85%;
+        max-width: 26em;
+        /* margin-inline: max(5vw, 20px);    */
+    }
+}
+
 .homepage-centre-container .homepage-banner {
     margin-block: max(50px, 10dvh);
 
     width: 60vw;
-    min-width: 375px;
+    min-width: 320px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+@media ( max-width: 640px) {
+    .homepage-centre-container .homepage-banner {
+        margin-block: 3em;
+    }
 }
 
 .homepage-banner .banner-image-container {
@@ -86,7 +116,7 @@
 
 .homepage-banner .banner-image-container .banner-image {
     max-width: 12vw;
-    min-width: 90px;
+    min-width: 80px;
 }
 
 .homepage-centre-container .packages-section {
@@ -104,7 +134,7 @@
     margin-block: max(50px, 10dvh);
 
     width: auto;
-    min-height: 175px;
+    min-height: 300px;
     max-height: 480px;
 
     display: grid;
@@ -112,6 +142,13 @@
     grid-template-rows: repeat(13, minmax(14.5px, 1fr));
 
     gap: 5pt 5pt;
+}
+
+@media ( max-width: 640px) {
+    .homepage-centre-container .gallary-section {
+        margin-block: 3em;
+        aspect-ratio: 1.4;
+    }
 }
 
 .homepage-centre-container .gallary-section section {

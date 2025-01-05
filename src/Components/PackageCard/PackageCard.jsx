@@ -16,7 +16,7 @@ const PackageCardItem = ({ text }) => {
 }
 
 
-const PackageCard = ({ packageInfo, onClick }) => {
+const PackageCard = ({ packageInfo, onClickTrigger }) => {
     return (
         <section className="package-card-container">
             <section className="title-section">
@@ -28,7 +28,7 @@ const PackageCard = ({ packageInfo, onClick }) => {
                 {packageInfo.CONTENT.map((item) => <PackageCardItem text={item}/>)}
             </section>
             
-            <button className="package-card-button" onClick={onClick}> 
+            <button className="package-card-button" onClick={onClickTrigger}> 
                 <Text textSize="8pt" textWeight="bold" textColor="#000000"> Request Invoice </Text> 
             </button>
         

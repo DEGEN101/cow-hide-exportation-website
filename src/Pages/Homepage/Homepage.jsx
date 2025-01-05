@@ -72,11 +72,11 @@ const Homepage = () => {
                 
                 {/* Homepage Text Content */}
                 <section className="homepage-content-container">
-                    <Text textSize="max(1vw, 8pt)">
+                    <Text textSize="max(1.1vw, 0.7rem)">
                         As one of the top cowhide suppliers in the country, we ensure reliable, consistent exports that 
                         uphold Mozambique's rich leather working traditions.
                     </Text>
-                    <Text textSize="max(1vw, 8pt)">
+                    <Text textSize="max(1.1vw, 0.7rem)">
                         We offer a wide variety of premium cowhides, meticulously handcrafted and ethically sourced from Mozambique's 
                         finest cattle. As one of the leading cowhide providers and distributors in the country, we take pride in delivering 
                         top-quality hides that meet international standards. Our collection boasts a range of textures, colors, and patterns, 
@@ -102,12 +102,12 @@ const Homepage = () => {
 
                 {/* Packages Section */}
                 <section className="packages-section">
-                    <PackageCard packageInfo={premiumPackageInfo} onClick={() => onContactUsButtonClick()}/>
+                    <PackageCard packageInfo={premiumPackageInfo} onClickTrigger={() => onContactUsButtonClick()}/>
                 </section>
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" textSize="max(8pt" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#616161" textSize="0.8rem" className="item title"> Genuine & Trusted </Text>
                     <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>

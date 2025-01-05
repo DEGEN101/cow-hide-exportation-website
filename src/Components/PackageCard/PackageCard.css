@@ -51,6 +51,12 @@
     border-radius: 8px;
     
     box-shadow: 1px 1px 5px lightslategray;
+
+    cursor: pointer;
+}
+
+.package-card-container .package-card-button:hover {
+    background-color: #A98144;
 }
 
 .package-card-container .package-card-button p {
