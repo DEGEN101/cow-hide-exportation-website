@@ -81,7 +81,21 @@
     gap: 5%;
 }
 
-.newsletter-section .email-section p {
+.newsletter-section .email-section input{
+    
+    border: none;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: black;
+
+    padding-bottom: 0;
+}
+
+.newsletter-section .email-section input:focus{
+    border: none;
+    outline: none;
+
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-color: black;
@@ -90,9 +104,17 @@
 }
 
 .email-section button {
+    background-color: transparent;
+
+    border: none;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-color: black;
+}
+
+.email-section button:hover {
+    cursor: pointer;
+    background-color: gainsboro;
 }
 
 

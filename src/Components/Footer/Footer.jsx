@@ -1,8 +1,18 @@
+import { useState } from "react";
 import Text from "../Text/Text";
+import { validateEmail } from "../../Utilities/DataValidation";
 
 import "./Footer.css"
 
 const Footer = () => {
+    const [email, setEmail] = useState("");
+
+    const onSubscribeButtonClick = () => {
+        if (!validateEmail(email)) return;
+
+        setEmail("");
+    }
+
     return (
     <>
         <section className="footer-container">
@@ -38,10 +48,13 @@ const Footer = () => {
                 <section className="newsletter-section">
                     <h4 className="sub-heading"> Newsletter </h4>
 
-                    <section className="email-section">
-                        <Text textSize="9pt"> Enter Your Email Address </Text>
-                        <Text textSize="9pt" textColor="#000000"> SUBSCRIBE</Text>
-                    </section>
+                    <form className="email-section">
+                        <input value={email} placeholder="Enter Your Email Address" onChange={(event) => {setEmail(event.target.value)}}
+                        style={{ borderBottomColor: email.length > 0 && !validateEmail(email) ? "red" : "#000000"}}/>
+                        <button onClick={() => onSubscribeButtonClick()}>
+                            <Text textSize="9pt" textColor="#000000"> SUBSCRIBE</Text>
+                        </button>
+                    </form>
                     
                 </section>
             </section>
