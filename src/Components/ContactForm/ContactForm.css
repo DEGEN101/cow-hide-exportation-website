@@ -2,16 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 5%;
-    padding: 2rem;
+    gap: 1rem;
+    padding: 1rem;
     font-family: Arial, sans-serif;
   }
-  
   .contact-info {
     flex: 1;
-    max-width: 400px;
 
-
+    max-width: 320px;
+    min-width: 320px;
   }
   
   .contact-item {
@@ -38,7 +37,8 @@
   
   .contact-form {
     flex: 1;
-    max-width: 400px;
+    max-width: 35%;
+    min-width: 320px;
   }
   
   .form-group {
@@ -65,7 +65,7 @@
   }
   
   .submit-button {
-    background-color: #c09854;
+    background-color: #B88E2F;
     color: #fff;
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
@@ -76,6 +76,28 @@
   }
   
   .submit-button:hover {
-    background-color: #a98144;
+    background-color: #8d6d23;
   }
   
+@media (max-width: 40em) {
+  .contact-form-container {
+    padding: 1em;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .contact-info {
+    margin-block-start: 2em;
+
+    order: 99;
+  }
+
+  .submit-button {
+    width: 100%;
+  } 
+}

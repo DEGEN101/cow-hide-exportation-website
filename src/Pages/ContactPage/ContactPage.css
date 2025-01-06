@@ -1,3 +1,11 @@
+.contact-us-page-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
 .information-section-container {
     display: flex;
     flex-direction: column;
@@ -10,13 +18,28 @@
 
  .subtext {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    align-self: center;
 
     margin: 0 28% 5% 28%;
+}
+
+.subtext p {
+    text-align: center;
     font-weight:"regular";
     font-family: 'Poppins', sans-serif;
     color: #9F9F9F;
-    font-size: 1rem;
+    font-size: max(0.8rem, 1.1vw);
     font-weight: 500;
+}
+
+@media (max-width: 40em) {
+    .subtext {
+        max-width: 75%;
+        margin-inline: 2rem;
+    }
+
+    .subtext p {
+        text-align: justify;
+    }
 }

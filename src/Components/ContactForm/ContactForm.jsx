@@ -16,17 +16,17 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="contact-item">
-          <span className="icon"> <img src={phoneIcon} alt="phone icon" /></span>
-          <div>
-            <h4>Phone</h4>
-            <p>Mobile: +258 85 879 9377<br />Hotline: +258 86 069 5853</p>
-          </div>
-        </div>
-        <div className="contact-item">
           <span className="icon"> <img src={clockIcon} alt="clock icon" /></span>
           <div>
             <h4>Working Time</h4>
             <p>Monday-Friday: 9:00 - 22:00<br />Saturday-Sunday: 9:00 - 21:00</p>
+          </div>
+        </div>
+        <div className="contact-item">
+          <span className="icon"> <img src={phoneIcon} alt="phone icon" /></span>
+          <div>
+            <h4>Phone</h4>
+            <p>Mobile: +258 85 879 9377<br />Hotline: +258 86 069 5853</p>
           </div>
         </div>
       </div>
