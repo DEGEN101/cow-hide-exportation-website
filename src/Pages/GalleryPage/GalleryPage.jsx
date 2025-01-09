@@ -17,7 +17,7 @@ const GalleryPage = () => {
         <section className="contact-us-page-container">
             <section className="information-section-container">
                         <Subheading> 
-                             From WIthin
+                             From Within
                         </Subheading>
 
             </section>
@@ -28,7 +28,7 @@ const GalleryPage = () => {
                 </p>
             </section>
         </section>
-        
+
         <Gallery/>
 
 
