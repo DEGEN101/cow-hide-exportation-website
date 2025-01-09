@@ -1,6 +1,7 @@
 // EmailSender.js
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import "./EmailSender.css"
 
 const EmailSender = () => {
   const [formData, setFormData] = useState({
@@ -21,9 +22,9 @@ const EmailSender = () => {
     e.preventDefault();
 
     // EmailJS configuration (replace with your EmailJS service and template IDs)
-    const serviceID = "your_service_id";
-    const templateID = "your_template_id";
-    const userID = "your_user_id";
+    const serviceID = "service_2c9ejjx";
+    const templateID = "template_kz603g6";
+    const userID = "fAkzXA1Mss6T6PYV7";
 
     if (formData.name && formData.email && formData.message) {
       emailjs
@@ -44,7 +45,7 @@ const EmailSender = () => {
     <div>
       {successMessage && <p className="success-message">{successMessage}</p>}
       {errorMessage && <p className="error-message">{errorMessage}</p>}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Your name</label>
           <input
