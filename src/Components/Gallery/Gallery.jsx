@@ -40,9 +40,10 @@ const Gallery = () => {
     imageI3,
     // Add more image paths here
   ];
-  turn (
+
+  return (
     <div className="gallery-container">
-      <h1 className="gallery-title">#CowHideExportation,Ltd</h1>
+    
       <div className="gallery-grid">
         {images.map((image, index) => (
           <div
@@ -56,6 +57,5 @@ const Gallery = () => {
     </div>
   );
 };
-
 
 export default Gallery;

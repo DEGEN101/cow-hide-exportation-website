@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Subheading from "../../Components/Subheading/Subheading";
 import BrandPanel from "../../Components/BrandPanel/BrandPanel";
+import Gallery from "../../Components/Gallery/Gallery";
 
 
 
@@ -27,6 +28,8 @@ const GalleryPage = () => {
                 </p>
             </section>
         </section>
+        
+        <Gallery/>
 
 
         <BrandPanel/>
