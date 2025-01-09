@@ -22,7 +22,7 @@
   }
   
   .gallery-item {
-    border: 0.2rem solid #d9c1a5;
+    border: 0.rem solid rgb(155, 82, 82);
     border-radius: 0.5rem;
     overflow: hidden;
     background-color: #f5ebe2;
@@ -41,7 +41,7 @@
     transform: scale(1.1);
   }
   
-  /* Template styles for varied grid layouts */
+
   .template-1 {
     grid-column: span 2;
     grid-row: span 2;

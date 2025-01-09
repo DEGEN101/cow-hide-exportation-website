@@ -37,7 +37,7 @@ const Gallery = () => {
     imageI6,
     imageI4,
     imageI7,
-    imageI3,
+
     // Add more image paths here
   ];
 
@@ -47,7 +47,7 @@ const Gallery = () => {
       <div className="gallery-grid">
         {images.map((image, index) => (
           <div
-            className={`gallery-item template-${(index % 6) + 1}`}
+            className={`gallery-item template-${(index % 9) + 1}`}
             key={index}
           >
             <img src={image} alt={`Gallery item ${index + 1}`} />
