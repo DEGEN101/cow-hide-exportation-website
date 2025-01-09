@@ -5,8 +5,9 @@ import { useLocation } from 'react-router-dom';
 import Homepage from './Pages/Homepage/Homepage';
 import AboutUsPage from './Pages/AboutUsPage/AboutUsPage';
 // import ContactForm from './Components/ContactForm/ContactForm';
- import ContactPage from './Pages/ContactPage/ContactPage';
- import GalleryPage from './Pages/GalleryPage/GalleryPage';
+import ContactPage from './Pages/ContactPage/ContactPage';
+import GalleryPage from './Pages/GalleryPage/GalleryPage';
+import Gallery from './Components/Gallery/Gallery';
 
 
 const ScrollToTop = () => {
@@ -26,7 +27,7 @@ const App = () => {
             <ScrollToTop/>
             <Routes>
                 <Route path="/" exact element={<Homepage/> }/>
-                <Route path="/home" element={<Homepage />} />
+                <Route path="/home" element={<Gallery />} />
                 <Route path="/about" element={<AboutUsPage />}/>
                 <Route path="/contact" element={<ContactPage />}/>
                 <Route path="/gallery" element={<GalleryPage />}/>
