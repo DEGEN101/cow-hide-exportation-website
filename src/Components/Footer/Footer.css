@@ -11,7 +11,7 @@
 }
 
 .footer-container .footer-heading {
-    margin-bottom: max(3vh, 10pt);
+    margin-bottom: 1.4rem;
 
     font-family: 'Poppins', sans-serif;
     color: #000000;
@@ -21,7 +21,7 @@
 }
 
 .footer-container .sub-heading {
-    margin-bottom: max(4vh, 21px);
+    margin-bottom: 1.8rem;
     font-family: 'Poppins', sans-serif;
     color: #9F9F9F;
     font-weight: normal;
@@ -34,13 +34,13 @@
     width: 85vw;
     min-width: 300px;
 
-    padding-block: min(3vh, 15pt);
+    padding-block: 1rem;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
 
-    gap: 0% 15%;
+    gap: 0% 20%;
 
     border-bottom: solid 1px #9F9F9F;
 }
@@ -50,76 +50,40 @@
     flex-direction: column;
     align-items: flex-start;
 
-    padding-bottom: max(3vh, 15pt);
+    padding-bottom: 1rem;
 }
 
 .footer-container .links-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .links-section .footer-link {
-    margin-bottom: max(3vh, 15pt);
+    margin-bottom: 1rem;
     text-decoration: none;
 }
 
-.footer-container .newsletter-section {
-    min-width: 300px;
+.footer-container .help-section {
+    width: 300px;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.newsletter-section .email-section {
-    width: 100%;
-
+.footer-container .help-section .help-section-items {
+    height: 100%;
     display: flex;
-    justify-content: flex-start;
-    
-    gap: 5%;
-}
+    flex-direction: column;
+    align-items: flex-start;
 
-.newsletter-section .email-section input{
-    
-    border: none;
-
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-color: black;
-
-    padding-bottom: 0;
-}
-
-.newsletter-section .email-section input:focus{
-    border: none;
-    outline: none;
-
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-color: black;
-
-    padding-bottom: 0;
-}
-
-.email-section button {
-    background-color: transparent;
-
-    border: none;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-color: black;
-}
-
-.email-section button:hover {
-    cursor: pointer;
-    background-color: gainsboro;
+    gap: 1rem;
 }
 
 
 /* Copyright Section */
 .footer-container .copyright-section {
-    padding-block: min(3vh, 15pt);
+    padding-block: 1rem;
     width: 85vw;
 }
