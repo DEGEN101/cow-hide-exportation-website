@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 // Import Components
 import Header from "../../Components/Header/Header";
 import PackageCard from "../../Components/PackageCard/PackageCard";
@@ -25,6 +27,8 @@ import imageI5 from "../../Assets/Images/UI/Icons/OG_Icons/i5.jpg";
 
 const Homepage = () => {
     // Variables
+    const navigate = useNavigate();
+
     const premiumPackageInfo = {
         TITLE: "Premium  Package",
         SUBTITLE: "Export & Import",
@@ -38,6 +42,9 @@ const Homepage = () => {
     };
 
     // Logic & Functions
+    const onContactUsButtonClick = () => {
+        navigate("/contact");
+    }
 
     // HTML Code
     return (
@@ -49,27 +56,27 @@ const Homepage = () => {
                 <article className="homepage-banner-container">
                     <img src={sampleCowHideImage} alt="cow hide"/>
                     <section className="homepage-banner-content">
-                        <Text textColor="#000000" textSize="0.8vw" textWeight="bold">New Arrival</Text>
+                        <Text textColor="#000000" textSize="max(0.8vw, 6pt)" textWeight="bold">New Arrival</Text>
                         
-                        <Text textColor="#B88E2F" textWeight="bold" textSize="2.6vw">
+                        <Text textColor="#B88E2F" textWeight="bold" textSize="max(2.6vw, 13pt)">
                             Import Premium Cowhides
                         </Text>
-                        <Text textColor="#000000" textSize="1.1vw">
+                        <Text textColor="#000000" textSize="max(1.1vw, 7pt)">
                             Discover top-quality cowhides crafted for export. Perfect for upholstery, décor, and leather goods.
                         </Text>
-                        <button onClick={null}> 
-                            <Text textColor="#FFFFFF" textSize="0.8vw" textWeight="bold"> CONTACT US </Text>
+                        <button onClick={() => onContactUsButtonClick()}> 
+                            <Text textColor="#FFFFFF" textSize="max(0.8vw, 6pt)" textWeight="bold"> CONTACT US </Text>
                         </button>
                     </section>
                 </article>
                 
                 {/* Homepage Text Content */}
                 <section className="homepage-content-container">
-                    <Text>
+                    <Text textSize="max(1.1vw, 0.8rem)">
                         As one of the top cowhide suppliers in the country, we ensure reliable, consistent exports that 
                         uphold Mozambique's rich leather working traditions.
                     </Text>
-                    <Text>
+                    <Text textSize="max(1.1vw, 0.8rem)">
                         We offer a wide variety of premium cowhides, meticulously handcrafted and ethically sourced from Mozambique's 
                         finest cattle. As one of the leading cowhide providers and distributors in the country, we take pride in delivering 
                         top-quality hides that meet international standards. Our collection boasts a range of textures, colors, and patterns, 
@@ -81,27 +88,27 @@ const Homepage = () => {
                 <section className="homepage-banner">
                     <section className="banner-image-container">
                         <img className="banner-image" src={africaContinentIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Ethically Sourced </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Ethically Sourced </Text>
                     </section>
                     <section className="banner-image-container">
                         <img className="banner-image" src={letherFashionIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Professionally Tanned </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Professionally Tanned </Text>
                     </section>
                     <section className="banner-image-container">
                         <img className="banner-image" src={handprintIcon} alt="Africa"/>
-                        <Text textColor="#000000" textSize="0.9vw" textWeight="bold"> Hand Selected </Text>
+                        <Text textColor="#000000" textSize="max(0.9vw, 8pt)" textWeight="bold"> Hand Selected </Text>
                     </section>
                 </section>
 
                 {/* Packages Section */}
                 <section className="packages-section">
-                    <PackageCard packageInfo={premiumPackageInfo}/>
+                    <PackageCard packageInfo={premiumPackageInfo} onClickTrigger={() => onContactUsButtonClick()}/>
                 </section>
 
                 {/* Gallary Section */}
                 <section className="gallary-section">
-                    <Text textColor="#616161" textSize="8pt" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="2.4vw" textWeight="bold" className="item subtitle"> 
+                    <Text textColor="#616161" textSize="0.8rem" className="item title"> Genuine & Trusted </Text>
+                    <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
                         #CowHideExportation,Ltd 
                     </Text>
                     <section className="item img-1"> 

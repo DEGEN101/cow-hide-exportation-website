@@ -1,6 +1,6 @@
 
 .aboutUs-page-center-container {
-    margin: 5vh 0 5vh 0;
+    margin-block: 0em 5em;
     display: flex;
     flex-direction: column;
 
@@ -8,13 +8,39 @@
     justify-content: center;
 }
 
+@media (max-width: 40em) {
+    .aboutUs-page-center-container {
+        margin-block: 0em 2em;
+    }
+}
+
 
 .intro-text-container {
     width: auto;
     max-width: 70vw;
-    margin-block: 5vh;
+    margin-block: 2em;
 
-    text-align: center;
+    text-align: justify;
+}
+
+@media (max-width: 54em) {
+    .intro-text-container {
+        max-width: 100%;
+        margin-block: 2em;
+        margin-inline: 3em;
+
+        text-align: justify;
+    }
+}
+
+@media (max-width: 40em) {
+    .intro-text-container {
+        max-width: 100%;
+        margin-block: 2em;
+        margin-inline: 1.5em;
+
+        text-align: justify;
+    }
 }
 
 .aboutUs-content-section {
@@ -26,7 +52,7 @@
     justify-content: center;
     align-items: center;
 
-    gap: 5vh 10vw;
+    gap: 1em 10vw;
 }
 
 .aboutUs-content-section .information-section-container {
@@ -35,11 +61,14 @@
 
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    
+    text-align:unset;
 }
 
 .aboutUs-content-section .information-section-container li{
-    margin-left: 4%;
-    font-size: 10pt;
+    margin-left: 10%;
+    font-size: max(1.1vw, 0.8rem);
     color: #9F9F9F;
 }
 
@@ -49,9 +78,9 @@
 
     display: grid;
 
-    grid-template-columns: repeat(7, minmax(1fr, 10px));
-    grid-template-rows: repeat(8, minmax(1fr, 10px));
-    gap: 10px;
+    grid-template-columns: repeat(7, minmax(1fr,  1em));
+    grid-template-rows: repeat(8, minmax(1fr,  1em));
+    gap: 1em;
 }
 
 .aboutUs-content-section .image-gallary section {
