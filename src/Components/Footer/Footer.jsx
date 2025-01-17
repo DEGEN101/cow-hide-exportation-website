@@ -22,7 +22,7 @@ const Footer = () => {
                         <Text textColor="#000000"> Home </Text>
                     </a>
 
-                    <a href="#/gallary" className="footer-link">
+                    <a href="#/gallery" className="footer-link">
                         <Text textColor="#000000"> Gallery </Text>
                     </a>
 
