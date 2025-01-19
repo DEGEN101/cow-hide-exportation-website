@@ -27,6 +27,10 @@
 }
 
 @media (max-width: 40em) {
+    .header-container {
+        padding-inline: 0.5rem;
+    }
+
     .header-title {
         font-size: 1.2rem;
     }
