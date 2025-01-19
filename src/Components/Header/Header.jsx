@@ -24,7 +24,7 @@ const Header = () => {
 
             <section className="header-left">
                 <img src={logo} alt="Logo" className="header-logo" />
-                <h1 className="header-title">Cowhide Exportation Ltd</h1>
+                <h1 className="header-title">Cow Hide Exportation, Ltd</h1>
             </section>
 
             <button  

@@ -2,54 +2,42 @@ import Text from "../Text/Text";
 
 import "./Footer.css"
 
+import logo from "../../Assets/Images/UI/Icons/OG_Icons/logo.png";
+
 const Footer = () => {
+
     return (
     <>
-        <section className="footer-container">
-            <section className="information-section">
-                {/* Address Section */}
-                <section className="address-section">
-                    <h3 className="footer-heading"> <b>Cow Hide Exportation, Ltd</b> </h3>
-                    <Text> 224 Rua Dos Irmaos Roby, Maputo 1110, Mozambique </Text>
-                </section>
-                
-                {/* Links Section */}
-                <section className="links-section">
-                    <h4 className="sub-heading"> Links </h4>
-        
-                    <a href="#/home" className="footer-link">
-                        <Text textColor="#000000"> Home </Text>
-                    </a>
-
-                    <a href="#/gallary" className="footer-link">
-                        <Text textColor="#000000"> Gallery </Text>
-                    </a>
-
-                    <a href="#/about" className="footer-link">
-                        <Text textColor="#000000"> About </Text>
-                    </a>
-
-                    <a href="#/contact" className="footer-link">
-                        <Text textColor="#000000"> Contact </Text>
-                    </a>
-                </section>
-                
-                {/* Newsletter Section */}
-                <section className="newsletter-section">
-                    <h4 className="sub-heading"> Newsletter </h4>
-
-                    <section className="email-section">
-                        <Text textSize="9pt"> Enter Your Email Address </Text>
-                        <Text textSize="9pt" textColor="#000000"> SUBSCRIBE</Text>
-                    </section>
-                    
+        <article className="footer-container">
+            <section className="logo-section">
+                <img src={logo} alt="Logo" className="footer-logo" />
+                <section className="header-section">
+                    <Text textColor="#000000" textSize="1.3rem" textWeight="700"> Cow Hide Exportation, Ltd</Text>
                 </section>
             </section>
 
-            <section className="copyright-section">  
-                <Text textColor="#000000"> 2025, Cow Skin Exportation Ltd. All rights reserved </Text>
+            <nav>
+                <ul className="footer-navigation">
+                    <li>
+                        <a href="#/home" className="navigation-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#/gallery" className="navigation-link">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#/about" className="navigation-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#/contact" className="navigation-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section className="copyright-section">
+                <Text> Copyright &copy; 2025  Cow Hide Exportation, Ltd. </Text>
+                <Text>  All Rights Reserved </Text>
             </section>
-        </section>
+        </article>
     </>
     );
 }
