@@ -10,7 +10,7 @@ import Text from "../../Components/Text/Text";
 import "./Homepage.css"
 
 // Import Assets
-import sampleCowHideImage from "../../Assets/Images/UI/Homepage/sample-cowhide-image.jpg";
+import sampleCowHideImage from "../../Assets/Images/UI/Homepage/sample-cowhide-image.png";
 import africaContinentIcon from "../../Assets/Images/UI/Homepage/africa-continent-svgrepo-com.svg";
 import letherFashionIcon from "../../Assets/Images/UI/Homepage/leather-fashion-svgrepo-com.svg";
 import handprintIcon from "../../Assets/Images/UI/Homepage/handprint-svgrepo-com.svg";
