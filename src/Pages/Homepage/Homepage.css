@@ -1,3 +1,45 @@
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .homepage-banner-container img {
+    max-width: 50%;
+    min-width: 80px;
+    /* Both elements use a 1s animation with the same easing */
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
+  .homepage-banner-container .homepage-banner-content {
+    width: 50%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4em;
+    text-align: left;
+    /* Both elements use a 1s animation with the same easing */
+    animation: slideInRight 1s ease-out forwards;
+  }
+  
+
 .homepage-centre-container {
     width: auto;
     
