@@ -8,8 +8,6 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  grid-auto-rows: 12rem;
   gap: 1.5rem;
 }
 
@@ -33,25 +31,22 @@
   filter: brightness(0.8);
 }
 
+/* Mobile View Adjustments */
 @media (max-width: 768px) {
   .gallery-grid {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for 2-2 pattern */
+    gap: 1rem;
   }
 
+  /* First image in the 1-2-2 pattern (full width) */
   .gallery-item:nth-child(3n+1) {
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: 1 / -1; /* Span all columns */
   }
 
+  /* Second and third images in the 1-2-2 pattern (half width) */
   .gallery-item:nth-child(3n+2),
   .gallery-item:nth-child(3n+3) {
-    grid-column: span 1;
-    grid-row: span 1;
-    display: inline-block;
-    width: 50%; /* Each takes half the width */
-  }
-
-  .gallery-item:nth-child(3n+2) {
-    margin-right: 0;
+    grid-column: span 1; /* Each takes one column */
   }
 }
