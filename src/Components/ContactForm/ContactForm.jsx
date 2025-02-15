@@ -3,6 +3,7 @@ import './ContactForm.css';
 import clockIcon from "../../Assets/Images/UI/Icons/clock_icon.png";
 import locationIcon from "../../Assets/Images/UI/Icons/location_icon.png";
 import phoneIcon from "../../Assets/Images/UI/Icons/phone_icon.png";
+import EmailSender from './EmailSender';
 
 const ContactForm = () => {
   return (
@@ -30,25 +31,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <form className="contact-form">
-        <div className="form-group">
-          <label htmlFor="name">Your name</label>
-          <input type="text" id="name" placeholder="Abc" />
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">Email address</label>
-          <input type="email" id="email" placeholder="Abc@def.com" />
-        </div>
-        <div className="form-group">
-          <label htmlFor="subject">Subject</label>
-          <input type="text" id="subject" placeholder="This is an optional" />
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea id="message" rows="4" placeholder="Hi! I’d like to ask about"></textarea>
-        </div>
-        <button type="submit" className="submit-button">Submit</button>
-      </form>
+      <EmailSender/>
     </div>
   );
 };
