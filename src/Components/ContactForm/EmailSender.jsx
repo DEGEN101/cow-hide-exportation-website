@@ -21,14 +21,18 @@ const EmailSender = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // EmailJS configuration (replace with your EmailJS service and template IDs)
-    const serviceID = "service_2c9ejjx";
-    const templateID = "template_kz603g6";
-    const userID = "fAkzXA1Mss6T6PYV7";
+    console.log(process.env.REACT_APP_EMAIL_SERVICE_ID, 
+      process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+      process.env.REACT_APP_EMAIL_USER_ID)
 
     if (formData.name && formData.email && formData.message) {
       emailjs
-        .send(serviceID, templateID, formData, userID)
+        .send(
+          process.env.REACT_APP_EMAIL_SERVICE_ID, 
+          process.env.REACT_APP_EMAIL_TEMPLATE_ID, 
+          formData, 
+          process.env.REACT_APP_EMAIL_USER_ID
+        )
         .then((response) => {
           setSuccessMessage("Your message has been sent successfully!");
           setFormData({ name: "", email: "", subject: "", message: "" });
