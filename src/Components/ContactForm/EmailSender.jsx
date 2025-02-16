@@ -21,10 +21,6 @@ const EmailSender = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(process.env.REACT_APP_EMAIL_SERVICE_ID, 
-      process.env.REACT_APP_EMAIL_TEMPLATE_ID,
-      process.env.REACT_APP_EMAIL_USER_ID)
-
     if (formData.name && formData.email && formData.message) {
       emailjs
         .send(
