@@ -105,36 +105,48 @@ const Homepage = () => {
                     <PackageCard packageInfo={premiumPackageInfo} onClickTrigger={() => onContactUsButtonClick()}/>
                 </section>
 
-                {/* Gallary Section */}
-                <section className="gallary-section">
-                    <Text textColor="#616161" textSize="0.8rem" className="item title"> Genuine & Trusted </Text>
-                    <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
-                        #CowHideExportation,Ltd 
-                    </Text>
-                    <section className="item img-1"> 
-                        <img src={imageI1} alt="cow hide"/> 
+                {/* Gallery Section */}
+                <section className="gallery-section">
+                    <section className="title-section">
+                        <Text textColor="#616161" textSize="0.8rem" className="item title"> Genuine & Trusted </Text>
+                        <Text textColor="#3A3A3A" textSize="max(14pt, 2.2vw)" textWeight="bold" className="item subtitle"> 
+                            #CowHideExportation,Ltd 
+                        </Text>
                     </section>
-                    <section className="item img-2"> 
-                        <img src={imageI2} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-3"> 
-                        <img src={imageI6} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-4"> 
-                        <img src={imageI4} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-5"> 
-                        <img src={imageI7} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-6"> 
-                        <img src={imageI3} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-7"> 
-                        <img src={imageI8} alt="cow hide"/> 
-                    </section>
-                    <section className="item img-8"> 
-                        <img src={imageI5} alt="cow hide"/> 
-                    </section>
+                    
+                    <div className="gallery-grid">
+                        {/* {images.map((image, index) => (
+                            <div className={`gallery-item template-${(index % 5) + 1}`} key={index}>
+                                <img src={image} alt={`Gallery item ${index + 1}`} />
+                            </div>
+                        )
+                        )} */}
+                        <div className={`gallery-item template-1`}>
+                                <img src={imageI1} alt={`Gallery item 1`} />
+                        </div>
+                        <div className={`gallery-item template-2`}>
+                                <img src={imageI3} alt={`Gallery item 2`} />
+                        </div>
+                        <div className={`gallery-item template-2`}>
+                                <img src={imageI6} alt={`Gallery item 3`} />
+                        </div>
+                        <div className={`gallery-item template-1`}>
+                                <img src={imageI5} alt={`Gallery item 4`} />
+                        </div>
+                        <div className={`gallery-item template-4`}>
+                                <img src={imageI7} alt={`Gallery item 5`} />
+                        </div>
+                        <div className={`gallery-item template-4`}>
+                                <img src={imageI2} alt={`Gallery item 3`} />
+                        </div>
+                        <div className={`gallery-item template-2`}>
+                                <img src={imageI8} alt={`Gallery item 3`} />
+                        </div>
+                        <div className={`gallery-item template-2`}>
+                                <img src={imageI4} alt={`Gallery item 3`} />
+                        </div>
+                    </div>
+
                 </section>
             </section>
             <Footer/>
