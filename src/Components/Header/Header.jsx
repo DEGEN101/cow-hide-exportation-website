@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./Header.css"
 
@@ -7,8 +8,9 @@ import burgerIcon from "../../Assets/Images/UI/Icons/burger-menu-svgrepo-com.svg
 import closeIcon from "../../Assets/Images/UI/Icons/close-svgrepo-com.svg"
 
 const Header = () => {
+    const navigate = useNavigate();
     const [toggleMobileNavigation, setToggleMobileNavigation] = useState("false");
-    
+
     const onMobileNavidationButtonClick = () => {
         if (toggleMobileNavigation === "false") {
             setToggleMobileNavigation("true")
@@ -18,11 +20,15 @@ const Header = () => {
         }
     }
 
+    const onHeaderIconClick = () => {
+        navigate("/home");
+    }
+
     return (
     <>
         <section className="header-container">
 
-            <section className="header-left">
+            <section className="header-left" onClick={() => onHeaderIconClick()}>
                 <img src={logo} alt="Logo" className="header-logo" />
                 <h1 className="header-title">Cow Hide Exportation, Ltd</h1>
             </section>
