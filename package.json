@@ -1,7 +1,7 @@
 {
   "name": "cow-hide-exportation-website",
   "version": "0.1.0",
-  "homepage": "https://degen101.github.io/cow-hide-exportation-website",
+  "homepage": "https://www.cowhidesexportation.com",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
