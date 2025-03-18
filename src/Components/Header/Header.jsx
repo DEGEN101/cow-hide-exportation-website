@@ -30,7 +30,7 @@ const Header = () => {
 
             <section className="header-left" onClick={() => onHeaderIconClick()}>
                 <img src={logo} alt="Logo" className="header-logo" />
-                <h1 className="header-title">Cow Hide Exportation, Ltd</h1>
+                <h1 className="header-title">Cow Hides Exportation, Ltd</h1>
             </section>
 
             <button  
