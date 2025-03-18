@@ -26,11 +26,6 @@
 
 .subtext p {
     text-align: center;
-    font-weight:"regular";
-    font-family: 'Poppins', sans-serif;
-    color: #9F9F9F;
-    font-size: max(0.8rem, 1.1vw);
-    font-weight: 500;
 }
 
 @media (max-width: 40em) {

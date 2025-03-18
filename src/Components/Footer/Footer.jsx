@@ -12,7 +12,7 @@ const Footer = () => {
             <section className="logo-section">
                 <img src={logo} alt="Logo" className="footer-logo" />
                 <section className="header-section">
-                    <Text textColor="#000000" textSize="1.3rem" textWeight="700"> Cow Hide Exportation, Ltd</Text>
+                    <Text textColor="#000000" textSize="1.3rem" textWeight="700"> Cow Hides Exportation, Ltd</Text>
                 </section>
             </section>
 
@@ -34,7 +34,7 @@ const Footer = () => {
             </nav>
 
             <section className="copyright-section">
-                <Text> Copyright &copy; 2025  Cow Hide Exportation, Ltd. </Text>
+                <Text> Copyright &copy; 2025  Cow Hides Exportation, Ltd. </Text>
                 <Text>  All Rights Reserved </Text>
             </section>
         </article>
